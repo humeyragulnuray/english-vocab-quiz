@@ -12,10 +12,12 @@
 
     <div class="topbar">
       <div id="scoreText" class="score">Score: 0/0</div>
+
       <div class="controls">
         <button id="btnSubmit" onclick="submitAnswer()">Submit Answer</button>
-        <button onclick="resetQuiz()">Reset Quiz</button>
-        <button onclick="randomizeQuestions()">Randomize Questions</button>
+        <button id="btnReset" onclick="resetQuiz()">Reset Quiz</button>
+        <button id="btnRandom" onclick="randomizeQuestions()">Randomize Questions</button>
+        <button id="btnFinish" class="finishBtn" onclick="finishExam()">Finish Exam</button>
       </div>
     </div>
 
@@ -23,6 +25,8 @@
       <div id="qTitle" class="qTitle">1. Question</div>
       <div id="question" class="question">Loading...</div>
       <div id="options" class="options"></div>
+
+      <div id="feedback" class="feedback"></div>
     </div>
 
     <div class="statusTableWrap">
@@ -33,10 +37,27 @@
             <th>Status</th>
           </tr>
         </thead>
-        <tbody id="statusBody">
-          <!-- JS dolduracak -->
-        </tbody>
+        <tbody id="statusBody"></tbody>
       </table>
+    </div>
+
+    <!-- ✅ SONUÇ PANELİ -->
+    <div id="results" class="results" style="display:none;">
+      <h2>Exam Result</h2>
+
+      <div id="resultSummary" class="resultSummary"></div>
+
+      <div class="resultGrid">
+        <div class="resultBox">
+          <h3>Wrong Answers</h3>
+          <ol id="wrongList"></ol>
+        </div>
+
+        <div class="resultBox">
+          <h3>Not Answered</h3>
+          <ol id="naList"></ol>
+        </div>
+      </div>
     </div>
 
   </div>
