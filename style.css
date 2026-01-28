@@ -33,6 +33,17 @@ h1 {
   cursor: pointer;
 }
 
+.finishBtn {
+  background: #111827;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}
+
+.finishBtn:hover {
+  opacity: 0.9;
+}
+
 .questionCard {
   background: #fff;
   border-radius: 10px;
@@ -91,3 +102,56 @@ h1 {
 .badge.na { background: #f3f4f6; }
 .badge.ok { background: #d1fae5; }
 .badge.no { background: #fee2e2; }
+
+/* feedback */
+.feedback {
+  margin-top: 14px;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 15px;
+  display: none;
+}
+
+.feedback.ok {
+  display: block;
+  background: #d1fae5;
+}
+
+.feedback.no {
+  display: block;
+  background: #fee2e2;
+}
+
+/* RESULTS */
+.results {
+  background: #fff;
+  border-radius: 10px;
+  padding: 22px;
+  margin-top: 18px;
+  text-align: left;
+}
+
+.resultSummary {
+  margin-top: 8px;
+  padding: 12px;
+  border-radius: 10px;
+  background: #eef2ff;
+  line-height: 1.6;
+}
+
+.resultGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.resultBox {
+  background: #f9fafb;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.resultBox ol {
+  margin: 8px 0 0 20px;
+}
