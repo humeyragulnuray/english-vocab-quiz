@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>English Vocabulary Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>English Vocabulary Quiz</h1>
+
+  <div class="container">
+
+    <div class="topbar">
+      <div id="scoreText" class="score">Score: 0/0</div>
+      <div class="controls">
+        <button id="btnSubmit" onclick="submitAnswer()">Submit Answer</button>
+        <button onclick="resetQuiz()">Reset Quiz</button>
+        <button onclick="randomizeQuestions()">Randomize Questions</button>
+      </div>
+    </div>
+
+    <div class="questionCard">
+      <div id="qTitle" class="qTitle">1. Question</div>
+      <div id="question" class="question">Loading...</div>
+      <div id="options" class="options"></div>
+    </div>
+
+    <div class="statusTableWrap">
+      <table class="statusTable">
+        <thead>
+          <tr>
+            <th>Question #</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="statusBody">
+          <!-- JS dolduracak -->
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>

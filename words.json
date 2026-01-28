@@ -1,0 +1,2312 @@
+[
+  {
+    "question": "experiment",
+    "options": [
+      "aygıt",
+      "kapalı",
+      "deney",
+      "ekseriyetle"
+    ],
+    "answer": "deney"
+  },
+  {
+    "question": "equipment",
+    "options": [
+      "ekipman",
+      "ana",
+      "gelişim",
+      "esnasında"
+    ],
+    "answer": "ekipman"
+  },
+  {
+    "question": "end",
+    "options": [
+      "görmek",
+      "uç",
+      "iş",
+      "dönmek"
+    ],
+    "answer": "uç"
+  },
+  {
+    "question": "stopper",
+    "options": [
+      "sonuç olarak",
+      "gelişim",
+      "ses",
+      "tıkaç"
+    ],
+    "answer": "tıkaç"
+  },
+  {
+    "question": "measuring tape",
+    "options": [
+      "çelik şerit",
+      "amaç",
+      "çeşit",
+      "dış"
+    ],
+    "answer": "çelik şerit"
+  },
+  {
+    "question": "instructions",
+    "options": [
+      "çekiç",
+      "pusula",
+      "talimat",
+      "temel"
+    ],
+    "answer": "talimat"
+  },
+  {
+    "question": "pressure",
+    "options": [
+      "kesici alet",
+      "dönüştürmek",
+      "basınç",
+      "çinko"
+    ],
+    "answer": "basınç"
+  },
+  {
+    "question": "level",
+    "options": [
+      "simgelemek",
+      "seviye",
+      "esnek",
+      "fark etmek"
+    ],
+    "answer": "seviye"
+  },
+  {
+    "question": "result",
+    "options": [
+      "çok",
+      "deney",
+      "ilişkili olmak",
+      "sonuç"
+    ],
+    "answer": "sonuç"
+  },
+  {
+    "question": "specifications",
+    "options": [
+      "şartlar",
+      "sünük",
+      "gözlemek",
+      "şimdi"
+    ],
+    "answer": "şartlar"
+  },
+  {
+    "question": "to take",
+    "options": [
+      "almak",
+      "sonunda",
+      "istemek",
+      "bobin"
+    ],
+    "answer": "almak"
+  },
+  {
+    "question": "to fill",
+    "options": [
+      "sünük",
+      "gerekli",
+      "doldurmak",
+      "kalıp"
+    ],
+    "answer": "doldurmak"
+  },
+  {
+    "question": "to close",
+    "options": [
+      "sonra",
+      "şekil vermek",
+      "kapatmak",
+      "germek"
+    ],
+    "answer": "kapatmak"
+  },
+  {
+    "question": "to invert",
+    "options": [
+      "korozyon",
+      "pil",
+      "ters çevirmek",
+      "kontak bileziği"
+    ],
+    "answer": "ters çevirmek"
+  },
+  {
+    "question": "to place",
+    "options": [
+      "yerleştirmek",
+      "dövülebilirlik",
+      "kararma",
+      "bileşen"
+    ],
+    "answer": "yerleştirmek"
+  },
+  {
+    "question": "to hold",
+    "options": [
+      "dar",
+      "almak",
+      "kuvvet",
+      "tutmak"
+    ],
+    "answer": "tutmak"
+  },
+  {
+    "question": "to let",
+    "options": [
+      "bırakmak",
+      "geliştirmek",
+      "kapalı",
+      "dikkatlice"
+    ],
+    "answer": "bırakmak"
+  },
+  {
+    "question": "to write down",
+    "options": [
+      "görmek",
+      "ince",
+      "kaydetmek",
+      "pirinç"
+    ],
+    "answer": "kaydetmek"
+  },
+  {
+    "question": "to follow",
+    "options": [
+      "demek",
+      "kısım",
+      "dalga",
+      "izlemek"
+    ],
+    "answer": "izlemek"
+  },
+  {
+    "question": "closed",
+    "options": [
+      "kapalı",
+      "dar",
+      "pahalı",
+      "herhangi bir"
+    ],
+    "answer": "kapalı"
+  },
+  {
+    "question": "full",
+    "options": [
+      "önem",
+      "nadir",
+      "gerilme",
+      "dolu"
+    ],
+    "answer": "dolu"
+  },
+  {
+    "question": "narrow",
+    "options": [
+      "dar",
+      "şekil vermek",
+      "vermek",
+      "iş"
+    ],
+    "answer": "dar"
+  },
+  {
+    "question": "completely",
+    "options": [
+      "sonunda",
+      "tamamen",
+      "çatlamak",
+      "dövülebilirlik"
+    ],
+    "answer": "tamamen"
+  },
+  {
+    "question": "carefully",
+    "options": [
+      "dikkatlice",
+      "iş",
+      "tel",
+      "bırakmak"
+    ],
+    "answer": "dikkatlice"
+  },
+  {
+    "question": "vertically",
+    "options": [
+      "dikey olarak",
+      "tahta",
+      "çeşit",
+      "uzay"
+    ],
+    "answer": "dikey olarak"
+  },
+  {
+    "question": "current",
+    "options": [
+      "şekil vermek",
+      "en iyi",
+      "akım",
+      "yön"
+    ],
+    "answer": "akım"
+  },
+  {
+    "question": "power plant",
+    "options": [
+      "elektrik santrali",
+      "iletken",
+      "gerilme kuvveti",
+      "pahalı"
+    ],
+    "answer": "elektrik santrali"
+  },
+  {
+    "question": "magnet",
+    "options": [
+      "kesici alet",
+      "elde etmek",
+      "mıknatıs",
+      "insan"
+    ],
+    "answer": "mıknatıs"
+  },
+  {
+    "question": "coil",
+    "options": [
+      "deney",
+      "ağır",
+      "bobin",
+      "bağlamak"
+    ],
+    "answer": "bobin"
+  },
+  {
+    "question": "pole",
+    "options": [
+      "ekseriyetle",
+      "kutup",
+      "fark etmek",
+      "…e göre"
+    ],
+    "answer": "kutup"
+  },
+  {
+    "question": "line",
+    "options": [
+      "hat",
+      "kiriş",
+      "eğer",
+      "gözlem"
+    ],
+    "answer": "hat"
+  },
+  {
+    "question": "force",
+    "options": [
+      "sonuç olarak",
+      "ışık",
+      "iletim",
+      "kuvvet"
+    ],
+    "answer": "kuvvet"
+  },
+  {
+    "question": "field",
+    "options": [
+      "alan",
+      "sonuç",
+      "üst",
+      "en iyi"
+    ],
+    "answer": "alan"
+  },
+  {
+    "question": "circuit",
+    "options": [
+      "yukarı",
+      "devre",
+      "kaydetmek",
+      "yapı"
+    ],
+    "answer": "devre"
+  },
+  {
+    "question": "flow",
+    "options": [
+      "bileşen",
+      "akış",
+      "doğa",
+      "olay"
+    ],
+    "answer": "akış"
+  },
+  {
+    "question": "direction",
+    "options": [
+      "gibi",
+      "yön",
+      "beton",
+      "çekiç"
+    ],
+    "answer": "yön"
+  },
+  {
+    "question": "alternating current",
+    "options": [
+      "yoğunluk",
+      "değişken akım",
+      "daha sonra",
+      "kesici alet"
+    ],
+    "answer": "değişken akım"
+  },
+  {
+    "question": "collector ring",
+    "options": [
+      "dolu",
+      "kontak bileziği",
+      "boşluk",
+      "çeşit"
+    ],
+    "answer": "kontak bileziği"
+  },
+  {
+    "question": "to rotate",
+    "options": [
+      "dönmek",
+      "yapı",
+      "kristal halinde",
+      "şekil vermek"
+    ],
+    "answer": "dönmek"
+  },
+  {
+    "question": "to insulate",
+    "options": [
+      "yalıtmak",
+      "demek",
+      "hemen hemen",
+      "vermek"
+    ],
+    "answer": "yalıtmak"
+  },
+  {
+    "question": "to cut",
+    "options": [
+      "kesmek",
+      "gibi",
+      "kaydetmek",
+      "vermek"
+    ],
+    "answer": "kesmek"
+  },
+  {
+    "question": "to cause",
+    "options": [
+      "ters çevirmek",
+      "sebep olmak",
+      "beton",
+      "sonra"
+    ],
+    "answer": "sebep olmak"
+  },
+  {
+    "question": "to reverse",
+    "options": [
+      "çelik şerit",
+      "geri çevirmek",
+      "kuvvet",
+      "dikey olarak"
+    ],
+    "answer": "geri çevirmek"
+  },
+  {
+    "question": "to induce",
+    "options": [
+      "farklı olmak",
+      "bulunmak",
+      "kutup",
+      "endüklemek"
+    ],
+    "answer": "endüklemek"
+  },
+  {
+    "question": "to connect",
+    "options": [
+      "kabuk",
+      "bağlamak",
+      "yapım",
+      "fiyat"
+    ],
+    "answer": "bağlamak"
+  },
+  {
+    "question": "basic",
+    "options": [
+      "gerekmek",
+      "dayanmak",
+      "saptamak",
+      "temel"
+    ],
+    "answer": "temel"
+  },
+  {
+    "question": "twice",
+    "options": [
+      "talimat",
+      "olay",
+      "dökme demir",
+      "iki kere"
+    ],
+    "answer": "iki kere"
+  },
+  {
+    "question": "external",
+    "options": [
+      "tip",
+      "katmak",
+      "yoğun",
+      "dış"
+    ],
+    "answer": "dış"
+  },
+  {
+    "question": "by means of",
+    "options": [
+      "ile",
+      "direnç",
+      "tepe",
+      "ilk olarak"
+    ],
+    "answer": "ile"
+  },
+  {
+    "question": "either...or...",
+    "options": [
+      "gitmek",
+      "mümkün",
+      "ya…ya…",
+      "gözlem"
+    ],
+    "answer": "ya…ya…"
+  },
+  {
+    "question": "scientist",
+    "options": [
+      "yapmak",
+      "geri çevirmek",
+      "muhtemelen",
+      "bilim insanı"
+    ],
+    "answer": "bilim insanı"
+  },
+  {
+    "question": "observation",
+    "options": [
+      "ana",
+      "gözlem",
+      "çıkarmak",
+      "dikey olarak"
+    ],
+    "answer": "gözlem"
+  },
+  {
+    "question": "column",
+    "options": [
+      "kurşun",
+      "sütun",
+      "büyük",
+      "kapatmak"
+    ],
+    "answer": "sütun"
+  },
+  {
+    "question": "to notice",
+    "options": [
+      "buluş",
+      "fark etmek",
+      "çeşit",
+      "…den farklı olarak"
+    ],
+    "answer": "fark etmek"
+  },
+  {
+    "question": "to drop",
+    "options": [
+      "çok",
+      "korozyon",
+      "çıkarmak",
+      "düşmek"
+    ],
+    "answer": "düşmek"
+  },
+  {
+    "question": "to observe",
+    "options": [
+      "gözlemek",
+      "sonuç olarak",
+      "havuz",
+      "görmek"
+    ],
+    "answer": "gözlemek"
+  },
+  {
+    "question": "to realize",
+    "options": [
+      "sebep olmak",
+      "çatlamak",
+      "…e göre",
+      "anlamak"
+    ],
+    "answer": "anlamak"
+  },
+  {
+    "question": "to discover",
+    "options": [
+      "kısım",
+      "kiriş",
+      "insan",
+      "bulmak"
+    ],
+    "answer": "bulmak"
+  },
+  {
+    "question": "while",
+    "options": [
+      "iken",
+      "kullanım",
+      "kristal halinde",
+      "amaç"
+    ],
+    "answer": "iken"
+  },
+  {
+    "question": "description",
+    "options": [
+      "ibre",
+      "elektrik santrali",
+      "uç",
+      "tanım"
+    ],
+    "answer": "tanım"
+  },
+  {
+    "question": "vacuum",
+    "options": [
+      "akım",
+      "belirli",
+      "iletmek",
+      "boşluk"
+    ],
+    "answer": "boşluk"
+  },
+  {
+    "question": "part",
+    "options": [
+      "kısım",
+      "üst",
+      "yol açmak",
+      "devre"
+    ],
+    "answer": "kısım"
+  },
+  {
+    "question": "about",
+    "options": [
+      "kalay",
+      "…den farklı olarak",
+      "iken",
+      "aşağı yukarı"
+    ],
+    "answer": "aşağı yukarı"
+  },
+  {
+    "question": "now",
+    "options": [
+      "saf",
+      "kesici alet",
+      "sonuç olarak",
+      "şimdi"
+    ],
+    "answer": "şimdi"
+  },
+  {
+    "question": "to fall",
+    "options": [
+      "durmak",
+      "bırakmak",
+      "kırılmak",
+      "düşmek"
+    ],
+    "answer": "düşmek"
+  },
+  {
+    "question": "to form",
+    "options": [
+      "şartlar",
+      "oluşmak",
+      "yaklaşık olarak",
+      "merkezi"
+    ],
+    "answer": "oluşmak"
+  },
+  {
+    "question": "to remove",
+    "options": [
+      "kalay",
+      "sonuç",
+      "çıkarmak",
+      "ısı"
+    ],
+    "answer": "çıkarmak"
+  },
+  {
+    "question": "to stop",
+    "options": [
+      "sütun",
+      "herhangi bir",
+      "durmak",
+      "tamamen"
+    ],
+    "answer": "durmak"
+  },
+  {
+    "question": "to support",
+    "options": [
+      "dönüştürmek",
+      "desteklemek",
+      "bobin",
+      "doğa"
+    ],
+    "answer": "desteklemek"
+  },
+  {
+    "question": "upper",
+    "options": [
+      "çelik şerit",
+      "üst",
+      "dayanmak",
+      "insan"
+    ],
+    "answer": "üst"
+  },
+  {
+    "question": "heavy",
+    "options": [
+      "gerçekten",
+      "elde etmek",
+      "ağır",
+      "hesaplamak"
+    ],
+    "answer": "ağır"
+  },
+  {
+    "question": "first",
+    "options": [
+      "ilk olarak",
+      "çok",
+      "seçmek",
+      "çatlamak"
+    ],
+    "answer": "ilk olarak"
+  },
+  {
+    "question": "then",
+    "options": [
+      "daha sonra",
+      "ekseriyetle",
+      "uzay",
+      "tepe"
+    ],
+    "answer": "daha sonra"
+  },
+  {
+    "question": "next",
+    "options": [
+      "sonra",
+      "yukarı",
+      "katmak",
+      "bilim insanı"
+    ],
+    "answer": "sonra"
+  },
+  {
+    "question": "finally",
+    "options": [
+      "sonunda",
+      "çeşit",
+      "çizmek",
+      "izlemek"
+    ],
+    "answer": "sonunda"
+  },
+  {
+    "question": "as a result",
+    "options": [
+      "sonuç olarak",
+      "ortam",
+      "esnek",
+      "son derece"
+    ],
+    "answer": "sonuç olarak"
+  },
+  {
+    "question": "man",
+    "options": [
+      "kısa bir süre sonra",
+      "kapalı",
+      "iş",
+      "insan"
+    ],
+    "answer": "insan"
+  },
+  {
+    "question": "world",
+    "options": [
+      "dayanmak",
+      "gitmek",
+      "uzay",
+      "dünya"
+    ],
+    "answer": "dünya"
+  },
+  {
+    "question": "coat of tarnish",
+    "options": [
+      "gibi",
+      "kararma",
+      "kontak bileziği",
+      "içinden"
+    ],
+    "answer": "kararma"
+  },
+  {
+    "question": "conductor",
+    "options": [
+      "vermek",
+      "sınıflandırmak",
+      "düşmek",
+      "iletken"
+    ],
+    "answer": "iletken"
+  },
+  {
+    "question": "manufacture",
+    "options": [
+      "esnasında",
+      "büyük",
+      "yapım",
+      "basınç"
+    ],
+    "answer": "yapım"
+  },
+  {
+    "question": "brass",
+    "options": [
+      "tıkaç",
+      "gözlem",
+      "mümkün",
+      "pirinç"
+    ],
+    "answer": "pirinç"
+  },
+  {
+    "question": "to find",
+    "options": [
+      "tepe",
+      "gerilme",
+      "bulmak",
+      "özgün"
+    ],
+    "answer": "bulmak"
+  },
+  {
+    "question": "to be located",
+    "options": [
+      "bulunmak",
+      "gerekmek",
+      "bağlamak",
+      "yukarı"
+    ],
+    "answer": "bulunmak"
+  },
+  {
+    "question": "to cover",
+    "options": [
+      "ilk",
+      "kaplamak",
+      "olay",
+      "şimdi"
+    ],
+    "answer": "kaplamak"
+  },
+  {
+    "question": "to add",
+    "options": [
+      "katmak",
+      "aygıt",
+      "farklı olmak",
+      "pil"
+    ],
+    "answer": "katmak"
+  },
+  {
+    "question": "all over",
+    "options": [
+      "aşağı yukarı",
+      "boşluk",
+      "her yerde",
+      "korozyon"
+    ],
+    "answer": "her yerde"
+  },
+  {
+    "question": "next to",
+    "options": [
+      "iki kere",
+      "bileşen",
+      "çok",
+      "yanında"
+    ],
+    "answer": "yanında"
+  },
+  {
+    "question": "pure",
+    "options": [
+      "sütun",
+      "aşağı",
+      "saf",
+      "esnek"
+    ],
+    "answer": "saf"
+  },
+  {
+    "question": "dense",
+    "options": [
+      "büyük",
+      "tahta",
+      "içinden",
+      "yoğun"
+    ],
+    "answer": "yoğun"
+  },
+  {
+    "question": "probably",
+    "options": [
+      "hız",
+      "…dan önce",
+      "saf",
+      "muhtemelen"
+    ],
+    "answer": "muhtemelen"
+  },
+  {
+    "question": "extremely",
+    "options": [
+      "tanım",
+      "gerekli",
+      "doğa",
+      "son derece"
+    ],
+    "answer": "son derece"
+  },
+  {
+    "question": "in fact",
+    "options": [
+      "iletmek",
+      "çizmek",
+      "çekmek",
+      "gerçekten"
+    ],
+    "answer": "gerçekten"
+  },
+  {
+    "question": "vibration",
+    "options": [
+      "kalay",
+      "yapım",
+      "titreşim",
+      "son derece"
+    ],
+    "answer": "titreşim"
+  },
+  {
+    "question": "speed",
+    "options": [
+      "uzay",
+      "hız",
+      "buluş",
+      "yol açmak"
+    ],
+    "answer": "hız"
+  },
+  {
+    "question": "medium",
+    "options": [
+      "ışık",
+      "kalıp",
+      "ortam",
+      "dikey olarak"
+    ],
+    "answer": "ortam"
+  },
+  {
+    "question": "velocity",
+    "options": [
+      "gerilme",
+      "pusula",
+      "hız",
+      "sebep olmak"
+    ],
+    "answer": "hız"
+  },
+  {
+    "question": "space",
+    "options": [
+      "kolayca",
+      "dökme demir",
+      "yukarı",
+      "uzay"
+    ],
+    "answer": "uzay"
+  },
+  {
+    "question": "through",
+    "options": [
+      "…den farklı olarak",
+      "germek",
+      "özellik",
+      "içinden"
+    ],
+    "answer": "içinden"
+  },
+  {
+    "question": "to differ",
+    "options": [
+      "iken",
+      "mühendislik",
+      "önemli",
+      "farklı olmak"
+    ],
+    "answer": "farklı olmak"
+  },
+  {
+    "question": "to travel",
+    "options": [
+      "çelik şerit",
+      "gitmek",
+      "bırakmak",
+      "ekipman"
+    ],
+    "answer": "gitmek"
+  },
+  {
+    "question": "to calculate",
+    "options": [
+      "kapalı",
+      "tamamen",
+      "izlemek",
+      "hesaplamak"
+    ],
+    "answer": "hesaplamak"
+  },
+  {
+    "question": "to call",
+    "options": [
+      "ampul",
+      "demek",
+      "çıkarmak",
+      "yapmak"
+    ],
+    "answer": "demek"
+  },
+  {
+    "question": "to know",
+    "options": [
+      "bilmek",
+      "esnasında",
+      "ana",
+      "üretmek"
+    ],
+    "answer": "bilmek"
+  },
+  {
+    "question": "to need",
+    "options": [
+      "ekipman",
+      "gerekmek",
+      "muhtemelen",
+      "dar"
+    ],
+    "answer": "gerekmek"
+  },
+  {
+    "question": "any",
+    "options": [
+      "almak",
+      "kullanım",
+      "herhangi bir",
+      "iyi bilinen"
+    ],
+    "answer": "herhangi bir"
+  },
+  {
+    "question": "important",
+    "options": [
+      "vermek",
+      "oluşmak",
+      "çeşit",
+      "önemli"
+    ],
+    "answer": "önemli"
+  },
+  {
+    "question": "much",
+    "options": [
+      "tamamen",
+      "çok",
+      "yön",
+      "nadir"
+    ],
+    "answer": "çok"
+  },
+  {
+    "question": "about (approx.)",
+    "options": [
+      "ilk olarak",
+      "pirinç",
+      "yaklaşık olarak",
+      "dikkatlice"
+    ],
+    "answer": "yaklaşık olarak"
+  },
+  {
+    "question": "easily",
+    "options": [
+      "şartlar",
+      "desteklemek",
+      "makine",
+      "kolayca"
+    ],
+    "answer": "kolayca"
+  },
+  {
+    "question": "cutting tool",
+    "options": [
+      "kesici alet",
+      "düşmek",
+      "iletken",
+      "sünük"
+    ],
+    "answer": "kesici alet"
+  },
+  {
+    "question": "die",
+    "options": [
+      "şartlar",
+      "kalıp",
+      "kutup",
+      "iletim"
+    ],
+    "answer": "kalıp"
+  },
+  {
+    "question": "light bulb",
+    "options": [
+      "pil",
+      "ampul",
+      "havuz",
+      "makine"
+    ],
+    "answer": "ampul"
+  },
+  {
+    "question": "resistance",
+    "options": [
+      "kuvvet",
+      "yanında",
+      "direnç",
+      "bırakmak"
+    ],
+    "answer": "direnç"
+  },
+  {
+    "question": "corrosion",
+    "options": [
+      "şekil vermek",
+      "korozyon",
+      "geliştirmek",
+      "dayanmak"
+    ],
+    "answer": "korozyon"
+  },
+  {
+    "question": "rare",
+    "options": [
+      "nadir",
+      "seviye",
+      "iyi bilinen",
+      "dökme demir"
+    ],
+    "answer": "nadir"
+  },
+  {
+    "question": "expensive",
+    "options": [
+      "izlemek",
+      "farklı olmak",
+      "herhangi bir",
+      "pahalı"
+    ],
+    "answer": "pahalı"
+  },
+  {
+    "question": "almost",
+    "options": [
+      "hemen hemen",
+      "yoğun",
+      "gerekmek",
+      "kabuk"
+    ],
+    "answer": "hemen hemen"
+  },
+  {
+    "question": "phenomenon",
+    "options": [
+      "ekipman",
+      "malzeme",
+      "olay",
+      "buluş"
+    ],
+    "answer": "olay"
+  },
+  {
+    "question": "principle",
+    "options": [
+      "anlamak",
+      "…dan önce",
+      "ilke",
+      "tip"
+    ],
+    "answer": "ilke"
+  },
+  {
+    "question": "discovery",
+    "options": [
+      "buluş",
+      "gözlemek",
+      "…den farklı olarak",
+      "tutmak"
+    ],
+    "answer": "buluş"
+  },
+  {
+    "question": "development",
+    "options": [
+      "iken",
+      "gelişim",
+      "çok",
+      "gerekmek"
+    ],
+    "answer": "gelişim"
+  },
+  {
+    "question": "device",
+    "options": [
+      "aygıt",
+      "ya…ya…",
+      "çinko",
+      "düşmek"
+    ],
+    "answer": "aygıt"
+  },
+  {
+    "question": "importance",
+    "options": [
+      "malzeme",
+      "bırakmak",
+      "önem",
+      "yapım"
+    ],
+    "answer": "önem"
+  },
+  {
+    "question": "to lead to",
+    "options": [
+      "yol açmak",
+      "dayanmak",
+      "durmak",
+      "fiyat"
+    ],
+    "answer": "yol açmak"
+  },
+  {
+    "question": "to see",
+    "options": [
+      "gerilme kuvveti",
+      "kesici alet",
+      "görmek",
+      "elektrik santrali"
+    ],
+    "answer": "görmek"
+  },
+  {
+    "question": "to obtain",
+    "options": [
+      "elde etmek",
+      "saf",
+      "gerilme kuvveti",
+      "sonunda"
+    ],
+    "answer": "elde etmek"
+  },
+  {
+    "question": "according to",
+    "options": [
+      "…e göre",
+      "içinden",
+      "kuvvet",
+      "gerilme"
+    ],
+    "answer": "…e göre"
+  },
+  {
+    "question": "lustre",
+    "options": [
+      "parlaklık",
+      "yay",
+      "anlamak",
+      "iletmek"
+    ],
+    "answer": "parlaklık"
+  },
+  {
+    "question": "conductivity",
+    "options": [
+      "durmak",
+      "iletkenlik",
+      "pahalı",
+      "korumak"
+    ],
+    "answer": "iletkenlik"
+  },
+  {
+    "question": "ability",
+    "options": [
+      "yetenek",
+      "önemli",
+      "iyi bilinen",
+      "gerçekten"
+    ],
+    "answer": "yetenek"
+  },
+  {
+    "question": "structure",
+    "options": [
+      "deney",
+      "yapı",
+      "dalga",
+      "basınç"
+    ],
+    "answer": "yapı"
+  },
+  {
+    "question": "crust",
+    "options": [
+      "doğa",
+      "beton",
+      "kabuk",
+      "elde etmek"
+    ],
+    "answer": "kabuk"
+  },
+  {
+    "question": "hardness",
+    "options": [
+      "saptamak",
+      "sertlik",
+      "bileşen",
+      "kurşun"
+    ],
+    "answer": "sertlik"
+  },
+  {
+    "question": "density",
+    "options": [
+      "gerekmek",
+      "görünmek",
+      "dayanmak",
+      "yoğunluk"
+    ],
+    "answer": "yoğunluk"
+  },
+  {
+    "question": "purpose",
+    "options": [
+      "sütun",
+      "sonuç olarak",
+      "tıkaç",
+      "amaç"
+    ],
+    "answer": "amaç"
+  },
+  {
+    "question": "strength",
+    "options": [
+      "korumak",
+      "mukavemet",
+      "dış",
+      "durmak"
+    ],
+    "answer": "mukavemet"
+  },
+  {
+    "question": "price",
+    "options": [
+      "dönmek",
+      "fiyat",
+      "şekil vermek",
+      "yapım"
+    ],
+    "answer": "fiyat"
+  },
+  {
+    "question": "crystalline",
+    "options": [
+      "kısa bir süre sonra",
+      "ince",
+      "kristal halinde",
+      "tel"
+    ],
+    "answer": "kristal halinde"
+  },
+  {
+    "question": "wave",
+    "options": [
+      "dar",
+      "dalga",
+      "önem",
+      "ilişkili olmak"
+    ],
+    "answer": "dalga"
+  },
+  {
+    "question": "phenomena",
+    "options": [
+      "olaylar",
+      "çekilebilirlik",
+      "olay",
+      "insan"
+    ],
+    "answer": "olaylar"
+  },
+  {
+    "question": "nature",
+    "options": [
+      "ekseriyetle",
+      "doğa",
+      "iletkenlik",
+      "çatlamak"
+    ],
+    "answer": "doğa"
+  },
+  {
+    "question": "transmission",
+    "options": [
+      "iletim",
+      "çinko",
+      "ilişkili olmak",
+      "ortam"
+    ],
+    "answer": "iletim"
+  },
+  {
+    "question": "kind",
+    "options": [
+      "parlaklık",
+      "çeşit",
+      "ya…ya…",
+      "tutmak"
+    ],
+    "answer": "çeşit"
+  },
+  {
+    "question": "stone",
+    "options": [
+      "çelik şerit",
+      "kararma",
+      "taş",
+      "kesici alet"
+    ],
+    "answer": "taş"
+  },
+  {
+    "question": "pool",
+    "options": [
+      "iken",
+      "belirli",
+      "havuz",
+      "yön"
+    ],
+    "answer": "havuz"
+  },
+  {
+    "question": "light",
+    "options": [
+      "sonunda",
+      "hız",
+      "ışık",
+      "ibre"
+    ],
+    "answer": "ışık"
+  },
+  {
+    "question": "heat",
+    "options": [
+      "tahta",
+      "dönmek",
+      "ısı",
+      "demek"
+    ],
+    "answer": "ısı"
+  },
+  {
+    "question": "sound",
+    "options": [
+      "farklı olmak",
+      "yapım",
+      "ses",
+      "içinden"
+    ],
+    "answer": "ses"
+  },
+  {
+    "question": "crest",
+    "options": [
+      "parlaklık",
+      "çizmek",
+      "tepe",
+      "kapatmak"
+    ],
+    "answer": "tepe"
+  },
+  {
+    "question": "distance",
+    "options": [
+      "germek",
+      "pahalı",
+      "kutup",
+      "uzaklık"
+    ],
+    "answer": "uzaklık"
+  },
+  {
+    "question": "to appear",
+    "options": [
+      "özellik",
+      "görünmek",
+      "yerleştirmek",
+      "doldurmak"
+    ],
+    "answer": "görünmek"
+  },
+  {
+    "question": "to transmit",
+    "options": [
+      "iletmek",
+      "sınıflandırmak",
+      "ampul",
+      "elektrik santrali"
+    ],
+    "answer": "iletmek"
+  },
+  {
+    "question": "to represent",
+    "options": [
+      "ampul",
+      "insan",
+      "simgelemek",
+      "dar"
+    ],
+    "answer": "simgelemek"
+  },
+  {
+    "question": "by",
+    "options": [
+      "iki kere",
+      "ile",
+      "bilim insanı",
+      "demek"
+    ],
+    "answer": "ile"
+  },
+  {
+    "question": "per",
+    "options": [
+      "farklı olmak",
+      "bobin",
+      "(saniye)de",
+      "ters çevirmek"
+    ],
+    "answer": "(saniye)de"
+  },
+  {
+    "question": "central",
+    "options": [
+      "mühendislik",
+      "becermek",
+      "merkezi",
+      "ışık"
+    ],
+    "answer": "merkezi"
+  },
+  {
+    "question": "soon",
+    "options": [
+      "yetenek",
+      "bilmek",
+      "…den farklı olarak",
+      "kısa bir süre sonra"
+    ],
+    "answer": "kısa bir süre sonra"
+  },
+  {
+    "question": "really",
+    "options": [
+      "gerçekten",
+      "kurşun",
+      "çıkarmak",
+      "yapmak"
+    ],
+    "answer": "gerçekten"
+  },
+  {
+    "question": "up",
+    "options": [
+      "endüklemek",
+      "kesici alet",
+      "kullanım",
+      "yukarı"
+    ],
+    "answer": "yukarı"
+  },
+  {
+    "question": "down",
+    "options": [
+      "yerleştirmek",
+      "akım",
+      "aşağı",
+      "tutmak"
+    ],
+    "answer": "aşağı"
+  },
+  {
+    "question": "engineering",
+    "options": [
+      "özgün",
+      "insan",
+      "mühendislik",
+      "ibre"
+    ],
+    "answer": "mühendislik"
+  },
+  {
+    "question": "material",
+    "options": [
+      "ana",
+      "aşağı yukarı",
+      "görmek",
+      "malzeme"
+    ],
+    "answer": "malzeme"
+  },
+  {
+    "question": "job",
+    "options": [
+      "şartlar",
+      "katmak",
+      "iş",
+      "yaklaşık olarak"
+    ],
+    "answer": "iş"
+  },
+  {
+    "question": "property",
+    "options": [
+      "görünmek",
+      "tepe",
+      "cam",
+      "özellik"
+    ],
+    "answer": "özellik"
+  },
+  {
+    "question": "type",
+    "options": [
+      "tip",
+      "geri çevirmek",
+      "seçmek",
+      "uzay"
+    ],
+    "answer": "tip"
+  },
+  {
+    "question": "machine",
+    "options": [
+      "çok",
+      "dalga",
+      "sütun",
+      "makine"
+    ],
+    "answer": "makine"
+  },
+  {
+    "question": "component",
+    "options": [
+      "zor",
+      "iken",
+      "bileşen",
+      "çizmek"
+    ],
+    "answer": "bileşen"
+  },
+  {
+    "question": "use",
+    "options": [
+      "kırılmak",
+      "hız",
+      "kullanım",
+      "deney"
+    ],
+    "answer": "kullanım"
+  },
+  {
+    "question": "if",
+    "options": [
+      "eğer",
+      "ilişkili olmak",
+      "ışık",
+      "iyi bilinen"
+    ],
+    "answer": "eğer"
+  },
+  {
+    "question": "such as",
+    "options": [
+      "geliştirmek",
+      "doğa",
+      "gibi",
+      "basınç"
+    ],
+    "answer": "gibi"
+  },
+  {
+    "question": "to want",
+    "options": [
+      "kesici alet",
+      "ya…ya…",
+      "kapatmak",
+      "istemek"
+    ],
+    "answer": "istemek"
+  },
+  {
+    "question": "to withstand",
+    "options": [
+      "iletken",
+      "dayanmak",
+      "bulmak",
+      "çıkarmak"
+    ],
+    "answer": "dayanmak"
+  },
+  {
+    "question": "to conduct",
+    "options": [
+      "makine",
+      "kararma",
+      "yaklaşık olarak",
+      "iletmek"
+    ],
+    "answer": "iletmek"
+  },
+  {
+    "question": "to make",
+    "options": [
+      "endüklemek",
+      "sebep olmak",
+      "akım",
+      "yapmak"
+    ],
+    "answer": "yapmak"
+  },
+  {
+    "question": "to choose",
+    "options": [
+      "iletkenlik",
+      "seçmek",
+      "esnek",
+      "…den farklı olarak"
+    ],
+    "answer": "seçmek"
+  },
+  {
+    "question": "to classify",
+    "options": [
+      "üretmek",
+      "sınıflandırmak",
+      "gibi",
+      "çıkarmak"
+    ],
+    "answer": "sınıflandırmak"
+  },
+  {
+    "question": "to determine",
+    "options": [
+      "çizmek",
+      "ile",
+      "doldurmak",
+      "saptamak"
+    ],
+    "answer": "saptamak"
+  },
+  {
+    "question": "steel",
+    "options": [
+      "ses",
+      "büyük",
+      "çelik",
+      "fark etmek"
+    ],
+    "answer": "çelik"
+  },
+  {
+    "question": "cast iron",
+    "options": [
+      "dökme demir",
+      "kuvvet",
+      "akım",
+      "hat"
+    ],
+    "answer": "dökme demir"
+  },
+  {
+    "question": "lead",
+    "options": [
+      "alan",
+      "kurşun",
+      "nadir",
+      "her yerde"
+    ],
+    "answer": "kurşun"
+  },
+  {
+    "question": "zinc",
+    "options": [
+      "elde etmek",
+      "dönmek",
+      "çatlamak",
+      "çinko"
+    ],
+    "answer": "çinko"
+  },
+  {
+    "question": "tin",
+    "options": [
+      "taş",
+      "basınç",
+      "düşmek",
+      "kalay"
+    ],
+    "answer": "kalay"
+  },
+  {
+    "question": "glass",
+    "options": [
+      "dikey olarak",
+      "cam",
+      "gerçekten",
+      "yapı"
+    ],
+    "answer": "cam"
+  },
+  {
+    "question": "concrete",
+    "options": [
+      "yay",
+      "…e göre",
+      "(saniye)de",
+      "beton"
+    ],
+    "answer": "beton"
+  },
+  {
+    "question": "wood",
+    "options": [
+      "yanında",
+      "gerilme kuvveti",
+      "tahta",
+      "mıknatıs"
+    ],
+    "answer": "tahta"
+  },
+  {
+    "question": "best",
+    "options": [
+      "çeşit",
+      "en iyi",
+      "çekiç",
+      "bilmek"
+    ],
+    "answer": "en iyi"
+  },
+  {
+    "question": "great",
+    "options": [
+      "büyük",
+      "ekseriyetle",
+      "…den farklı olarak",
+      "çekilebilirlik"
+    ],
+    "answer": "büyük"
+  },
+  {
+    "question": "major",
+    "options": [
+      "çekiç",
+      "ekipman",
+      "korozyon",
+      "ana"
+    ],
+    "answer": "ana"
+  },
+  {
+    "question": "certain",
+    "options": [
+      "kapatmak",
+      "belirli",
+      "katmak",
+      "bilmek"
+    ],
+    "answer": "belirli"
+  },
+  {
+    "question": "frequently",
+    "options": [
+      "farklı olmak",
+      "becermek",
+      "dövülebilirlik",
+      "ekseriyetle"
+    ],
+    "answer": "ekseriyetle"
+  },
+  {
+    "question": "elasticity",
+    "options": [
+      "esneklik",
+      "ile",
+      "geliştirmek",
+      "sonuç olarak"
+    ],
+    "answer": "esneklik"
+  },
+  {
+    "question": "stress",
+    "options": [
+      "gerilme",
+      "çekilebilirlik",
+      "kısım",
+      "iletkenlik"
+    ],
+    "answer": "gerilme"
+  },
+  {
+    "question": "spring",
+    "options": [
+      "eğer",
+      "yay",
+      "gerçekten",
+      "gelişim"
+    ],
+    "answer": "yay"
+  },
+  {
+    "question": "beam",
+    "options": [
+      "hız",
+      "görünmek",
+      "kiriş",
+      "nadir"
+    ],
+    "answer": "kiriş"
+  },
+  {
+    "question": "malleability",
+    "options": [
+      "kapatmak",
+      "dövülebilirlik",
+      "kiriş",
+      "muhtemelen"
+    ],
+    "answer": "dövülebilirlik"
+  },
+  {
+    "question": "hammer",
+    "options": [
+      "çekiç",
+      "esnek",
+      "kesmek",
+      "direnç"
+    ],
+    "answer": "çekiç"
+  },
+  {
+    "question": "wire",
+    "options": [
+      "farklı olmak",
+      "ışık",
+      "tel",
+      "iletmek"
+    ],
+    "answer": "tel"
+  },
+  {
+    "question": "ductility",
+    "options": [
+      "geliştirmek",
+      "çekilebilirlik",
+      "kaplamak",
+      "çekiç"
+    ],
+    "answer": "çekilebilirlik"
+  },
+  {
+    "question": "tension",
+    "options": [
+      "kesmek",
+      "yalıtmak",
+      "gerilme kuvveti",
+      "kutup"
+    ],
+    "answer": "gerilme kuvveti"
+  },
+  {
+    "question": "to stretch",
+    "options": [
+      "çinko",
+      "germek",
+      "sonra",
+      "uç"
+    ],
+    "answer": "germek"
+  },
+  {
+    "question": "to return",
+    "options": [
+      "dikey olarak",
+      "ya…ya…",
+      "beton",
+      "dönmek"
+    ],
+    "answer": "dönmek"
+  },
+  {
+    "question": "to keep",
+    "options": [
+      "korumak",
+      "ya…ya…",
+      "parlaklık",
+      "yanında"
+    ],
+    "answer": "korumak"
+  },
+  {
+    "question": "to give",
+    "options": [
+      "vermek",
+      "içinden",
+      "kalay",
+      "katmak"
+    ],
+    "answer": "vermek"
+  },
+  {
+    "question": "to shape",
+    "options": [
+      "ışık",
+      "şekil vermek",
+      "…den farklı olarak",
+      "yapı"
+    ],
+    "answer": "şekil vermek"
+  },
+  {
+    "question": "to fracture",
+    "options": [
+      "çatlamak",
+      "alan",
+      "sonuç olarak",
+      "pusula"
+    ],
+    "answer": "çatlamak"
+  },
+  {
+    "question": "to pull",
+    "options": [
+      "bağlamak",
+      "kesmek",
+      "mühendislik",
+      "çekmek"
+    ],
+    "answer": "çekmek"
+  },
+  {
+    "question": "to break",
+    "options": [
+      "tutmak",
+      "kırılmak",
+      "dövülebilirlik",
+      "kurşun"
+    ],
+    "answer": "kırılmak"
+  },
+  {
+    "question": "to scratch",
+    "options": [
+      "çizmek",
+      "kullanım",
+      "kurşun",
+      "ilke"
+    ],
+    "answer": "çizmek"
+  },
+  {
+    "question": "original",
+    "options": [
+      "şartlar",
+      "yanında",
+      "havuz",
+      "özgün"
+    ],
+    "answer": "özgün"
+  },
+  {
+    "question": "elastic",
+    "options": [
+      "ekseriyetle",
+      "esnek",
+      "merkezi",
+      "taş"
+    ],
+    "answer": "esnek"
+  },
+  {
+    "question": "malleable",
+    "options": [
+      "çok",
+      "dövülebilir",
+      "düşmek",
+      "izlemek"
+    ],
+    "answer": "dövülebilir"
+  },
+  {
+    "question": "ductile",
+    "options": [
+      "ekseriyetle",
+      "sünük",
+      "bağlamak",
+      "sertlik"
+    ],
+    "answer": "sünük"
+  },
+  {
+    "question": "possible",
+    "options": [
+      "ince",
+      "ters çevirmek",
+      "bilmek",
+      "mümkün"
+    ],
+    "answer": "mümkün"
+  },
+  {
+    "question": "thin",
+    "options": [
+      "hemen hemen",
+      "herhangi bir",
+      "ince",
+      "ilk"
+    ],
+    "answer": "ince"
+  },
+  {
+    "question": "difficult",
+    "options": [
+      "uzay",
+      "zor",
+      "çinko",
+      "bileşen"
+    ],
+    "answer": "zor"
+  },
+  {
+    "question": "necessary",
+    "options": [
+      "gerekli",
+      "kaplamak",
+      "önemli",
+      "yol açmak"
+    ],
+    "answer": "gerekli"
+  },
+  {
+    "question": "well-known",
+    "options": [
+      "beton",
+      "iyi bilinen",
+      "ısı",
+      "saptamak"
+    ],
+    "answer": "iyi bilinen"
+  },
+  {
+    "question": "unlike",
+    "options": [
+      "…den farklı olarak",
+      "görmek",
+      "oluşmak",
+      "amaç"
+    ],
+    "answer": "…den farklı olarak"
+  },
+  {
+    "question": "battery",
+    "options": [
+      "pil",
+      "sünük",
+      "şimdi",
+      "gerilme"
+    ],
+    "answer": "pil"
+  },
+  {
+    "question": "compass",
+    "options": [
+      "anlamak",
+      "muhtemelen",
+      "pusula",
+      "desteklemek"
+    ],
+    "answer": "pusula"
+  },
+  {
+    "question": "needle",
+    "options": [
+      "vermek",
+      "ibre",
+      "ince",
+      "kiriş"
+    ],
+    "answer": "ibre"
+  },
+  {
+    "question": "to manage",
+    "options": [
+      "istemek",
+      "sertlik",
+      "…den farklı olarak",
+      "becermek"
+    ],
+    "answer": "becermek"
+  },
+  {
+    "question": "to generate",
+    "options": [
+      "mühendislik",
+      "fiyat",
+      "saf",
+      "üretmek"
+    ],
+    "answer": "üretmek"
+  },
+  {
+    "question": "to convert",
+    "options": [
+      "fark etmek",
+      "tahta",
+      "dönüştürmek",
+      "seviye"
+    ],
+    "answer": "dönüştürmek"
+  },
+  {
+    "question": "to be related",
+    "options": [
+      "ya…ya…",
+      "ilişkili olmak",
+      "kutup",
+      "pirinç"
+    ],
+    "answer": "ilişkili olmak"
+  },
+  {
+    "question": "to send",
+    "options": [
+      "sünük",
+      "yol açmak",
+      "göndermek",
+      "kesmek"
+    ],
+    "answer": "göndermek"
+  },
+  {
+    "question": "to develop",
+    "options": [
+      "hemen hemen",
+      "geliştirmek",
+      "gerekmek",
+      "iş"
+    ],
+    "answer": "geliştirmek"
+  },
+  {
+    "question": "early",
+    "options": [
+      "yoğunluk",
+      "içinden",
+      "ilk",
+      "sonunda"
+    ],
+    "answer": "ilk"
+  },
+  {
+    "question": "during",
+    "options": [
+      "…e göre",
+      "daha sonra",
+      "esnasında",
+      "oluşmak"
+    ],
+    "answer": "esnasında"
+  },
+  {
+    "question": "before",
+    "options": [
+      "…dan önce",
+      "almak",
+      "ısı",
+      "gerekmek"
+    ],
+    "answer": "…dan önce"
+  }
+]
