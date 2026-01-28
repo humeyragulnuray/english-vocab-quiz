@@ -4,22 +4,30 @@ let score = 0;
 
 // status: "NA" | "OK" | "NO"
 let statuses = [];
-
-// kullanıcı ne işaretledi (boşsa null)
 let selectedAnswers = [];
 
-// sınav bitince kilitle
+// sınav bitince kilit
 let isFinished = false;
 
+/* ======================
+   DATA LOAD
+====================== */
 fetch("words.json")
   .then(res => {
-    if (!res.ok) throw new Error("words.json okunamadı: " + res.status);
+    if (!res.ok) throw new Error("words.json okunamadı");
     return res.json();
   })
   .then(data => {
     questions = data;
-    statuses = Array(questions.length).fill("NA");
-    selectedAnswers = Array(questions.length).fill(null);
+
+    loadProgress();
+
+    if (statuses.length !== questions.length) {
+      statuses = Array(questions.length).fill("NA");
+      selectedAnswers = Array(questions.length).fill(null);
+      score = 0;
+      currentIndex = 0;
+    }
 
     renderStatusTable();
     updateScoreText();
@@ -28,25 +36,15 @@ fetch("words.json")
   .catch(err => {
     console.error(err);
     document.getElementById("question").innerText =
-      "HATA: words.json yüklenmedi. Live Server ile aç ve JSON'un yorum içermediğine bak.";
+      "HATA: words.json yüklenemedi. Live Server ile aç.";
   });
 
+/* ======================
+   UI HELPERS
+====================== */
 function updateScoreText() {
-  document.getElementById("scoreText").innerText = `Score: ${score}/${questions.length}`;
-}
-
-function renderStatusTable() {
-  const tbody = document.getElementById("statusBody");
-  tbody.innerHTML = "";
-
-  for (let i = 0; i < questions.length; i++) {
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td>${i + 1}</td>
-      <td id="st-${i}">${statusBadge("NA")}</td>
-    `;
-    tbody.appendChild(tr);
-  }
+  document.getElementById("scoreText").innerText =
+    `Score: ${score}/${questions.length}`;
 }
 
 function statusBadge(st) {
@@ -55,10 +53,40 @@ function statusBadge(st) {
   return `<span class="badge na">Not Answered</span>`;
 }
 
+/* ======================
+   STATUS TABLE
+====================== */
+function renderStatusTable() {
+  const tbody = document.getElementById("statusBody");
+  tbody.innerHTML = "";
+
+  for (let i = 0; i < questions.length; i++) {
+    const tr = document.createElement("tr");
+    tr.style.cursor = "pointer";
+    tr.onclick = () => {
+      currentIndex = i;
+      loadQuestion();
+      saveProgress();
+    };
+
+    tr.innerHTML = `
+      <td>${i + 1}</td>
+      <td id="st-${i}">${statusBadge(statuses[i])}</td>
+    `;
+
+    tbody.appendChild(tr);
+  }
+}
+
+/* ======================
+   LOAD QUESTION
+====================== */
 function loadQuestion() {
   const q = questions[currentIndex];
 
-  document.getElementById("qTitle").innerText = `${currentIndex + 1}. Question`;
+  document.getElementById("qTitle").innerText =
+    `${currentIndex + 1}. Question`;
+
   document.getElementById("question").innerText = q.question;
 
   const optionsDiv = document.getElementById("options");
@@ -74,10 +102,9 @@ function loadQuestion() {
     optionsDiv.appendChild(label);
   });
 
-  // Eğer kullanıcı daha önce işaretlediyse geri göster
+  // Önceki seçim
   if (selectedAnswers[currentIndex]) {
-    const radios = document.querySelectorAll('input[name="option"]');
-    radios.forEach(r => {
+    document.querySelectorAll('input[name="option"]').forEach(r => {
       if (r.value === selectedAnswers[currentIndex]) r.checked = true;
     });
   }
@@ -89,6 +116,9 @@ function loadQuestion() {
   fb.innerText = "";
 }
 
+/* ======================
+   SUBMIT ANSWER
+====================== */
 function submitAnswer() {
   if (isFinished) return;
 
@@ -96,16 +126,12 @@ function submitAnswer() {
   if (!selected) return;
 
   const correct = questions[currentIndex].answer;
-
-  // kaydet
   selectedAnswers[currentIndex] = selected.value;
 
-  // status belirle
   if (selected.value === correct) {
     if (statuses[currentIndex] !== "OK") score++;
     statuses[currentIndex] = "OK";
   } else {
-    // Eğer daha önce OK ise ve şimdi wrong yaptıysa skor düşsün (adil hesap)
     if (statuses[currentIndex] === "OK") score--;
     statuses[currentIndex] = "NO";
   }
@@ -119,49 +145,87 @@ function submitAnswer() {
     fb.className = "feedback no";
     fb.innerText = `❌ Yanlış. Doğru cevap: ${correct}`;
   }
+  fb.style.display = "block";
 
-  // tablo
-  document.getElementById(`st-${currentIndex}`).innerHTML = statusBadge(statuses[currentIndex]);
+  document.getElementById(`st-${currentIndex}`).innerHTML =
+    statusBadge(statuses[currentIndex]);
+
   updateScoreText();
+  saveProgress();
+}
 
-  // sonraki soru
-  currentIndex++;
-  if (currentIndex < questions.length) {
+/* ======================
+   NAVIGATION
+====================== */
+function nextQuestion() {
+  if (currentIndex < questions.length - 1) {
+    currentIndex++;
     loadQuestion();
-  } else {
-    finishExam(); // son sorudan sonra otomatik bitir
+    saveProgress();
   }
 }
 
+function prevQuestion() {
+  if (currentIndex > 0) {
+    currentIndex--;
+    loadQuestion();
+    saveProgress();
+  }
+}
+
+/* ======================
+   SAVE / LOAD
+====================== */
+function saveProgress() {
+  localStorage.setItem("quizData", JSON.stringify({
+    currentIndex,
+    score,
+    statuses,
+    selectedAnswers,
+    isFinished
+  }));
+}
+
+function loadProgress() {
+  const saved = localStorage.getItem("quizData");
+  if (!saved) return;
+
+  const data = JSON.parse(saved);
+  currentIndex = data.currentIndex ?? 0;
+  score = data.score ?? 0;
+  statuses = data.statuses ?? [];
+  selectedAnswers = data.selectedAnswers ?? [];
+  isFinished = data.isFinished ?? false;
+}
+
+/* ======================
+   RESET
+====================== */
 function resetQuiz() {
-  isFinished = false;
+  if (!confirm("Reset quiz?")) return;
+
+  localStorage.removeItem("quizData");
+
   currentIndex = 0;
   score = 0;
+  isFinished = false;
 
   statuses = Array(questions.length).fill("NA");
   selectedAnswers = Array(questions.length).fill(null);
 
-  // tablo reset
-  for (let i = 0; i < questions.length; i++) {
-    document.getElementById(`st-${i}`).innerHTML = statusBadge("NA");
-  }
-
-  // sonuç gizle
-  document.getElementById("results").style.display = "none";
-  document.getElementById("wrongList").innerHTML = "";
-  document.getElementById("naList").innerHTML = "";
-
-  // butonları aç
-  toggleButtons(true);
-
+  renderStatusTable();
   updateScoreText();
   loadQuestion();
+
+  document.getElementById("results").style.display = "none";
 }
 
+/* ======================
+   RANDOMIZE
+====================== */
 function randomizeQuestions() {
   if (isFinished) return;
 
-  // soruları karıştırırken kullanıcının işaretleri/status sıfırlansın
   questions.sort(() => Math.random() - 0.5);
 
   currentIndex = 0;
@@ -174,65 +238,66 @@ function randomizeQuestions() {
   loadQuestion();
 }
 
+/* ======================
+   FINISH EXAM (FIXED)
+====================== */
 function finishExam() {
   if (isFinished) return;
   isFinished = true;
 
-  // doğru/yanlış/boş say
-  const correctCount = statuses.filter(s => s === "OK").length;
-  const wrongCount = statuses.filter(s => s === "NO").length;
-  const naCount = statuses.filter(s => s === "NA").length;
+  let correctCount = 0;
+  let wrongCount = 0;
+  let naCount = 0;
 
-  // yüzde (boşlar yanlış sayılmaz; yüzde = correct / total)
+  for (let i = 0; i < statuses.length; i++) {
+    if (statuses[i] === "OK") correctCount++;
+    else if (statuses[i] === "NO") wrongCount++;
+    else naCount++;
+  }
+
   const total = questions.length;
-  const percent = total > 0 ? ((correctCount / total) * 100).toFixed(2) : "0.00";
+  const percent =
+    total > 0 ? ((correctCount / total) * 100).toFixed(2) : "0.00";
 
-  // summary yaz
   document.getElementById("resultSummary").innerHTML = `
-    <b>Total:</b> ${total} <br>
-    <b>Correct:</b> ${correctCount} <br>
-    <b>Wrong:</b> ${wrongCount} <br>
-    <b>Not Answered:</b> ${naCount} <br>
+    <b>Total:</b> ${total}<br>
+    <b>Correct:</b> ${correctCount}<br>
+    <b>Wrong:</b> ${wrongCount}<br>
+    <b>Not Answered:</b> ${naCount}<br>
     <b>Success:</b> %${percent}
   `;
 
-  // yanlış listesi
+  // WRONG LIST
   const wrongList = document.getElementById("wrongList");
   wrongList.innerHTML = "";
   for (let i = 0; i < total; i++) {
     if (statuses[i] === "NO") {
       const li = document.createElement("li");
-      li.innerText = `${i + 1}) ${questions[i].question} | Your: ${selectedAnswers[i]} | Correct: ${questions[i].answer}`;
+      li.innerText =
+        `${i + 1}) ${questions[i].question} | ` +
+        `Your: ${selectedAnswers[i]} | Correct: ${questions[i].answer}`;
       wrongList.appendChild(li);
     }
   }
-  if (wrongList.childElementCount === 0) {
+  if (wrongList.children.length === 0) {
     wrongList.innerHTML = "<li>No wrong answers 🎉</li>";
   }
 
-  // boş listesi
+  // NOT ANSWERED LIST
   const naList = document.getElementById("naList");
   naList.innerHTML = "";
   for (let i = 0; i < total; i++) {
     if (statuses[i] === "NA") {
       const li = document.createElement("li");
-      li.innerText = `${i + 1}) ${questions[i].question} | Correct: ${questions[i].answer}`;
+      li.innerText =
+        `${i + 1}) ${questions[i].question} | Correct: ${questions[i].answer}`;
       naList.appendChild(li);
     }
   }
-  if (naList.childElementCount === 0) {
+  if (naList.children.length === 0) {
     naList.innerHTML = "<li>No unanswered questions ✅</li>";
   }
 
-  // paneli göster
   document.getElementById("results").style.display = "block";
-
-  // butonları kilitle (reset hariç)
-  toggleButtons(false);
-}
-
-function toggleButtons(enabled) {
-  document.getElementById("btnSubmit").disabled = !enabled;
-  document.getElementById("btnRandom").disabled = !enabled;
-  document.getElementById("btnFinish").disabled = !enabled;
+  saveProgress();
 }
